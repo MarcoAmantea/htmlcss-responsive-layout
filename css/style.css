@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-    width: 100%;
-    padding: 0 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 hr
@@ -48,7 +48,6 @@ a {
 
 /* Header */
 .header {
-    font-family: "Nerko One", cursive;
     color: hsl(33.12deg 96.51% 55.1%);
     display: flex;
     justify-content: center;
@@ -96,16 +95,16 @@ iframe {
 
 
 .icons-list {
-    display: flex;
-    gap: 20px;
-    justify-content: space-around;
+   display: flex; 
+   justify-content: space-between;
+   
 }
 
 .icons {
     background-color: white;
     padding: 10px;
     border-radius: 30px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 
@@ -217,6 +216,7 @@ li {
 
         .row {
             flex-direction: column;
+            width: 40%;
         }
 
         .none-2 {
