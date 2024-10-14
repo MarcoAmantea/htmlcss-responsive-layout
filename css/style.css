@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: hsl(40deg 14.29% 95.88%);
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+hr {
+    width: 60px;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+
+
+.mg-bottom {
+    margin-bottom: 10px;
+}
+
+gray {
+    color: gray;
+    margin: 20px 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+.header {
+    font-family: "Nerko One", cursive;
+    color: hsl(33.12deg 96.51% 55.1%);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+/* Youtube section */
+iframe {
+    width: 100%;
+}
+
+.none {
+    display: none;
+}
+
+.none-2 {
+    display: none;
+}
+
+.first-card {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.col30 {
+    margin: 20px;
+}
+
+.title {
+    margin: 20px 0;
+    color: hsl(266.25deg 29.63% 31.76%);
+}
+
+.subtitle {
+    margin: 20px 0;
+}
+
+.col {
+    margin-bottom: 10px;
+}
+
+
+
+.icons-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.icons {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+
+/* Tiramisù */
+.tiramisu {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+
+/* footer */
+footer {
+    font-size: 10px;
+    background-color: hsl(259.32deg 24.48% 52.75%);
+    padding: 20px 0;
+    color: white;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+    text-decoration: underline;
+    margin-bottom: 10px
+}
+
+.container-small {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.final-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* Media query */
+    @media screen and (min-width: 768px) {
+        .header {
+            justify-content: start;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .none {
+            display: inline;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .col {
+            width: calc(100%/3);
+        }
+
+        .col30 {
+            margin-left: 20px;
+        }
+
+        .icons {
+            padding: 10px 30px;
+            margin: 20px 0;
+        }
+
+        .none-2 {
+            display: none;
+        }
+
+        .tiramisu {
+            float: left;
+            margin: 0 10px 10px 0;
+        }
+    }
+
+
+    @media screen and (min-width: 992px) {
+        .header {
+            justify-content: start;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .none {
+            display: inline;
+        }
+
+        iframe {
+            width: 60%;
+        }
+
+        .col30 {
+            width: 40%;
+
+        }
+
+        .first-card {
+            display: flex;
+        }
+
+        .row {
+            flex-direction: column;
+        }
+
+        .none-2 {
+            display: inline;
+            font-size: 10px;
+        }
+
+        .tiramisu {
+            float: left;
+            margin: 0 10px 10px 0;
+        }
+    }
